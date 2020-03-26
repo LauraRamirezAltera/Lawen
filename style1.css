@@ -1,0 +1,407 @@
+
+.noticiaPageSection {
+    padding: 2rem
+}
+
+.noticiaText {
+    padding: 2rem 3rem
+}
+
+.noticiaSection {
+    background: no-repeat top right 30%;
+    background-size: cover;
+    height: calc(100vh - 246.8px)
+}
+
+.noticiaText p,
+.noticiasComment p {
+    color: #2e3847
+}
+
+.noticiaText h5,
+.noticiasComment h5 {
+    margin-bottom: 2rem
+}
+
+.noticiaText .separator {
+    display: block;
+    width: 100px;
+    height: 2px;
+    background: #3995c0;
+    margin: 1rem auto 3rem
+}
+
+.noticiaText .categories {
+    margin-bottom: 0
+}
+
+.noticiaText .post-categories {
+    list-style: none;
+    padding: 0
+}
+
+.noticiaText .post-categories li {
+    display: inline-block;
+    margin: 0 0.5rem
+}
+
+.noticiaText .post-categories li a {
+    text-transform: uppercase;
+    color: #3995c0
+}
+
+.noticiaText .post-categories li a:hover {
+    text-decoration: none
+}
+
+.noticiaText .wp-block-quote {
+    font-style: italic;
+    padding-left: 0.5rem;
+    font-size: 15px;
+    position: relative;
+    margin-left: 1rem
+}
+
+.noticiaText .post_content {
+    overflow: hidden
+}
+
+.noticiaText .post_content ul {
+    padding-left: 1rem
+}
+
+.noticiaText .post_content ul li {
+    font-size: 1rem;
+    margin-bottom: 0.25rem
+}
+
+.noticiaText .post_content a {
+    color: #3995C0
+}
+
+.noticiaText .wp-block-image figcaption {
+    font-size: 12px;
+    font-style: italic
+}
+
+.noticiaText .wp-block-quote::before {
+    content: '';
+    display: block;
+    width: 3px;
+    background: #3995c0;
+    position: absolute;
+    left: -3px;
+    height: 100%
+}
+
+.noticiaText_center {
+    text-align: center
+}
+
+.noticiaText_right {
+    text-align: right
+}
+
+.textcursiva {
+    font-style: italic
+}
+
+.sentence {
+    font-size: 20px
+}
+
+.blue {
+    color: #3995C0!important
+}
+.lawyerContainer {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: #e6e9ed;
+    padding: 1rem 2rem
+}
+
+.lawyerContainer .author-pic img {
+    border-radius: 50%;
+    margin-right: 1rem
+}
+
+.lauyerText {
+    display: flex;
+    flex-direction: column;
+    justify-content: center
+}
+
+.blogChange {
+    display: flex;
+    flex-direction: row;
+    margin: 1rem;
+    justify-content: space-between;
+    border-top: 1px solid #e6e9ed;
+    border-bottom: 1px solid #e6e9ed
+}
+
+.blogChange.primerPost {
+    justify-content: flex-end
+}
+
+.next_previous {
+    display: flex;
+    flex-direction: row
+}
+
+.next_previous_link:hover {
+    text-decoration: none
+}
+
+.blogChange_img {
+    display: none
+}
+
+.boxImgChange {
+    display: flex;
+    flex-direction: column;
+    justify-content: center
+}
+
+.next_previous p {
+    font-size: 10px;
+    font-weight: 500;
+    margin: 0
+}
+
+.next_previous .prev_post_thumbnail {
+    display: block;
+    width: 120px;
+    height: 120px;
+    background-size: cover;
+    background: no-repeat center;
+    margin: 0.5rem 0
+}
+
+.blogChange_text {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding: 1rem;
+    width: calc(100% - 120px)
+}
+
+.comments_box {
+    display: flex;
+    flex-direction: column;
+    padding: 1rem;
+    text-align: center;
+    align-items: center
+}
+
+.comments_box input,
+.comments_box textarea {
+    margin-bottom: 1rem;
+    border: 1px solid #e6e9ed;
+    border-radius: 8px;
+    padding: 1rem;
+    width: 22rem
+}
+
+.comments_box input {
+    height: 2rem
+}
+
+.comments_box_title {
+    font-size: 20px
+}
+
+.comments_input {
+    display: flex;
+    flex-direction: column
+}
+
+.btnBlog {
+    width: 7rem;
+    margin-bottom: 3rem
+}
+
+.one_comment_post {
+    text-align: justify;
+    padding: 0.5rem;
+    border-bottom: 1px solid #e6e9ed;
+    margin-bottom: 2rem
+}
+
+.one_comment_post p {
+    font-size: 14px
+}
+
+.prueba {
+    height: 5rem
+}
+
+.blog_container {
+    margin: 1rem
+}
+
+.post-grid {
+    width: 80%;
+}
+
+.post-pagination {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 100%;
+    margin: 6rem 0 3rem 0;
+}
+
+.post-pagination a {
+    color: #3995C0;
+    font-size: 14px;
+}
+
+.post-pagination a:hover {
+    text-decoration: none;
+}
+
+.bannerBlog {
+    height: 40vh;
+    background-position: center right 15%;
+    background-size: cover;
+    margin-bottom: 2rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding-left: 2rem;
+    padding-top: 5rem
+}
+
+.bannerBlog h1 {
+    font-size: 46px
+}
+
+.bannerBlog p {
+    font-size: 18px
+}
+
+.cards_Blog {
+    display: flex
+}
+.one_cardBlogText,
+.one_cardBlog img {
+    width: 100%
+}
+
+.one_cardBlogText p,
+.one_cardBlogText h6 {
+    font-size: 14px
+}
+
+.little {
+    font-size: 8px!important
+}
+
+.one_cardBlogText {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: #e6e9ed;
+    padding: 1rem 1rem 2rem;
+    text-align: center
+}
+
+.one_cardBlogText p {
+    color: #2e3847
+}
+
+.one_cardBlogText .post-categories {
+    list-style: none;
+    padding: 0
+}
+
+.one_cardBlogText .post-categories li {
+    display: inline-block;
+    margin: 0 0.25rem
+}
+
+.one_cardBlogText .post-categories li a {
+    font-size: 10px;
+    color: #3995C0;
+    text-transform: uppercase
+}
+
+.one_cardBlogText .post-categories li a:hover {
+    text-decoration: none
+}
+
+.one_cardBlogText .post-link {
+    display: block;
+    color: #212529
+}
+
+.one_cardBlogText .post-link:hover {
+    text-decoration: none
+}
+
+.line_blue {
+    height: 1px;
+    background-color: #3995C0;
+    width: 2rem;
+    margin: 0 auto 2rem
+}
+
+.CardsBlog {
+    display: flex;
+    flex-direction: column
+}
+
+.columNews {
+    padding: 1rem;
+    display: flex;
+    flex-direction: column
+}
+
+.search input {
+    border: none
+}
+
+.search {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    border: 1px solid #e6e9ed;
+    border-radius: 15px;
+    height: 3rem;
+    width: 100%;
+    max-width: 340px
+}
+
+.searchBtn {
+    border: none;
+    cursor: pointer
+}
+
+.one_new {
+    display: flex;
+    flex-direction: row;
+    padding: 1rem;
+    margin-top: 1rem;
+    border-top: 1px solid #e6e9ed
+}
+
+.one_new img {
+    width: 5rem
+}
+
+.categories p,
+.one_new p {
+    font-size: 14px;
+    color: #2e3847
+}
+
+.categories ul {
+    list-style: none
+}
+
+.littleDate {
+    font-size: 12px
+}
