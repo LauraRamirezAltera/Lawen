@@ -212,6 +212,12 @@ secondSection */
 #secondSectionLawen-ow.tns-outer .tns-nav button:active{
     background-color: #3ccece;
 }
+.more,
+.more1,
+.btn_sixth,
+.modal{
+    cursor: pointer;
+}
 .modal-content .close{
     padding: 0.5rem;
     opacity: 1;
@@ -965,6 +971,9 @@ footer */
     width: 1.5rem;
     margin: 0rem 0.5rem;
 }
+.footer_2 a{
+    text-decoration: none;
+}
 
 @media (max-width: 360px){
     .first_container {
@@ -1190,6 +1199,7 @@ sexthSection */
     }
     .contact_btn a {
         font-size: 18px;
+        text-decoration: none;
     }
     .contact_btn {
         width: 12rem;
