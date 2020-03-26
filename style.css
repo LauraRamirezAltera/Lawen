@@ -1103,6 +1103,9 @@ fourthSection */
         opacity: 0;
         cursor: pointer;
     }
+    .news_card{
+        max-width: 350px;
+    }
 
 }
 @media (min-width: 992px){
