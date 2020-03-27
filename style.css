@@ -78,7 +78,7 @@ firstSection */
 }
 .first_container{
     width: 100%;
-    height: calc(100vh - 95px);
+    height: calc(110vh - 95px);
     color: #ffff;
     text-align: center;
     display: flex;
@@ -95,6 +95,7 @@ firstSection */
 .first_container h1{
     font-weight: 700;
     font-size: 45px;
+    margin-top: 4rem;
 }
 .btn_first{
     background-color: #000;
@@ -147,6 +148,7 @@ secondSection */
     align-items: center;
     overflow: hidden;
     background-color: transparent;
+    cursor: pointer;
 }
 .btn_card img{
     width: 18rem;
@@ -214,8 +216,7 @@ secondSection */
     background-color: #3ccece;
 }
 
-.btn_sixth,
-.modal{
+.btn_sixth{
     cursor: pointer;
 }
 .modal-content .close{
@@ -342,6 +343,7 @@ fourthSection */
     background-repeat: no-repeat;
     height: 60vh;
 }
+
 .tecnology_text h1{
     margin: 0;
     font-weight: 700;
@@ -357,6 +359,9 @@ fourthSection */
     flex-direction: column;
     justify-content: center;
     align-items: center;
+    background-position: bottom;
+    background-size: cover;
+    background-repeat: no-repeat;
 }
 
 .descriptionTecnology{
@@ -390,6 +395,7 @@ fourthSection */
     color: #fff;
     font-weight: 700;
 }
+
 
 /* _________________________________________________________________
 fifthSection */
@@ -502,10 +508,14 @@ sixthSection */
     color: #fff;
     font-size: 14px;
     font-weight: 600;
+    text-decoration: none;
 }
+
 .email,
 .tel{
-    margin-bottom: 4rem;
+    margin-bottom: 2rem;
+    color: #fff;
+    text-decoration: none;
 }
 .form_box{
     width: 100%;
@@ -1065,9 +1075,10 @@ fourthSection */
     }
     .nav-tabs{
         border: 1px solid #fff;
-        justify-content: space-between;
+        justify-content: center;
         padding: 0.5rem;
     }
+
 
 }
 @media (max-width: 992px){
@@ -1101,7 +1112,6 @@ fourthSection */
     }
     .more{
         opacity: 0;
-        cursor: pointer;
     }
     .news_card{
         max-width: 350px;
@@ -1123,7 +1133,6 @@ fourthSection */
     }
     .more1{
         opacity: 0;
-        cursor: pointer;
     }
 
 /* _________________________________________________________________
@@ -1162,6 +1171,21 @@ secondSection */
 fourthSection */
     .third_container{
         width: 60%;
+    }
+    .title_tecnology{
+        width: 80%;
+        text-align: left;
+    }
+    .line1{
+        padding: 0.5rem;
+        border-right: 1px solid #fff;
+    }
+    .line2{
+        padding: 0.5rem;
+        border-right: 1px solid #fff;
+    }
+    .line3{
+        padding: 0.5rem;
     }
 /* _________________________________________________________________
 sexthSection */
@@ -1215,7 +1239,8 @@ sexthSection */
     }
     .email h5,
     .tel h5{
-        margin-bottom: 2rem;
+        margin-bottom: 1rem;
+        color: #fff;
     }
     .sixth_form,
     .email,
@@ -1248,5 +1273,8 @@ footer */
     }
     .news_card_ghost{
         padding: 1rem;
+    }
+    .nav-tabs .nav-link {
+        border: none;
     }
 }
