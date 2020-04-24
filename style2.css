@@ -54,7 +54,7 @@ sanitizacion */
     margin-bottom: 4rem;
 }
 .min_dpto{
-    max-width: 200px;
+    max-width: 210px;
     background-color: #f88632;
     color: #621e91;
     padding: 0.3rem 1rem;
@@ -75,7 +75,9 @@ sanitizacion */
 .litte_text{
     font-size: 10px;
 }
-
+.box_text p{
+    font-size: 12px;
+}
 /* -----------------------------------------------------
 QR Promo */
 
@@ -214,6 +216,7 @@ QR Promo */
     }
     .content_sanitizacion{
         flex-direction: column;
+        height: calc(100vh - 260px);
     }
     .logo_header img{
         width:17rem ;
@@ -289,5 +292,4 @@ QR Promo */
     .litte_text{
         margin-top:1.5rem ;
     }
-
 }
