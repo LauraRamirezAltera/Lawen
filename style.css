@@ -204,15 +204,18 @@ secondSection */
     margin-right: 1rem;
     border-radius: 50px
 }
+
 #secondSectionLawen-ow.tns-outer .tns-nav button,
-#fifthSectionLawen-ow.tns-outer .tns-nav button{
+#fifthSectionLawen-ow.tns-outer .tns-nav button,
+#promoSectionLawen-ow.tns-outer .tns-nav button{
     width: 12px;
     height: 12px;
     background-color: #fff;
     border: 1.5px solid #3ccece
 }
 #secondSectionLawen-ow.tns-outer .tns-nav button:active,
-#fifthSectionLawen-ow.tns-outer .tns-nav button:active{
+#fifthSectionLawen-ow.tns-outer .tns-nav button:active,
+#promoSectionLawen-ow.tns-outer .tns-nav button:active{
     background-color: #3ccece;
 }
 
@@ -403,7 +406,6 @@ fifthSection */
     width: 100%;
     text-align: center;
     padding: 1rem;
-    margin-bottom: 3rem;
 }
 .fifth_title{
     margin-top: 6rem;
@@ -487,6 +489,7 @@ sixthSection */
     background-size: cover;
     text-align: center;
     padding: 5rem 2rem;
+    margin-top: 3rem;
 }
 .sixth_title h2{
     margin: 0;
