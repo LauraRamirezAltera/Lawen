@@ -405,3 +405,10 @@
 .littleDate {
     font-size: 12px
 }
+
+/* _________________________________________________
+Sanitización */
+
+.logo_header img{
+    width: 2rem;
+}

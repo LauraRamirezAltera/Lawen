@@ -4,11 +4,26 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png">
+    <link rel="manifest" href="/site.webmanifest">
     <title>LAWEN</title>
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
     <link  rel = "stylesheet"  href = "https://cdnjs.cloudflare.com/ajax/libs/tiny-slider/2.9.2/tiny-slider.css">
     <link href="https://fonts.googleapis.com/css?family=Montserrat:400,500,600,700,900|Open+Sans&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="./style.css">
+
+    <!-- Global site tag (gtag.js) - Google Analytics -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=UA-162018452-1"></script>
+    <script>
+        window.dataLayer = window.dataLayer || [];
+        function gtag(){dataLayer.push(arguments);}
+        gtag('js', new Date());
+
+        gtag('config', 'UA-162018452-1');
+    </script>
+
 </head>
 <body>
     <nav class="navbar navbar-expand-lg navbar-light">
@@ -35,6 +50,9 @@
                 <li class="nav-item">
                   <a  href="#noticias" class="nav-link" >Prensa</a>
                 </li>
+                <li class="nav-item">
+                    <a  href="#promociones" class="nav-link" >Promociones</a>
+                  </li>
                 <li class="nav-item btn_nav">
                     <a  href="#contacto" class="nav-link">Contáctanos</a>
                   </li>
@@ -46,7 +64,7 @@
             <div>
                 <h1>El remedio <br> para tus <br class="space_mobile"> espacios</h1>
             </div>
-            <a class="btn_first" href="#servicios">VER MÁS</a>
+            <a class="btn_first" href="#nosotros">VER MÁS</a>
         </div>
     </section>
     <img class="portrait curva" src="./img/curva.png" alt="curva">
@@ -238,11 +256,19 @@
                     <h1>Tecnología <br>No invasiva</h1>
                 </div>
                 <div class="descriptionTecnology">
-                    <ul class="nav nav-tabs" id="myTab" role="tablist">
+                    <h3>Más rápida, más ecológica y sin residuos</h3>
+                    <p class="text">
+                        Nuestro equipamiento está basado en Tecnología ULV, máquinas eléctricas que generan niebla fría formada por pequeñas gotas entre 5-50 micras.
+                    </p>
+                    <p class="text">
+                        Se recomienda la tecnología ULV  por ser mejor para el medio ambiente, en comparación con el método tradicional de nebulización térmica. Esto se debe a que los nebulizadores térmicos tienden a usar un diesel / mezcla de sustancias químicas, con el fin de alcanzar el punto de inflamación ideal, sumado a esto, se sabe que  los nebulizadores térmicos utilizan los motores de gasolina que producen gases exaust siendo menos ideal en el uso de interiores.
+                    </p>
+                    <p class="text">
+                        La Organización Mundial de Salud (OMS) recomienda el uso de tecnología eléctrica ULV  para nebulización en interiores, ya que al utilizar motores eléctricos, los productos químicos no están sometidos a combustión y rápidamente se puede diluir y abarcar área más  grande con la mínima cantidad de producto químico, generando con esto menor residualidad y mejor adaptación al entorno.
+                    </p>
+                    <!-- <ul class="nav nav-tabs" id="myTab" role="tablist">
                         <li class="nav-item line1">
-                            <div class="line1_1">
-                                <a class="nav-link active" id="empresas-tab" data-toggle="tab" href="#empresas" role="tab" aria-controls="empresas" aria-selected="true">RÁPIDA</a>
-                            </div>
+                            <a class="nav-link active" id="empresas-tab" data-toggle="tab" href="#empresas" role="tab" aria-controls="empresas" aria-selected="true">RÁPIDA</a>
                         </li>
                         <li class="nav-item line2">
                           <a class="nav-link" id="emprendedor-tab" data-toggle="tab" href="#emprendedor" role="tab" aria-controls="emprendedor" aria-selected="false">ECONÓMICA</a>
@@ -252,7 +278,7 @@
                         </li>
                       </ul>
                       <div class="tab-content" id="myTabContent">
-                        <div class="tab-pane fade show active" id="empresas" role="tabpanel" aria-labelledby="empresas-tab">
+                        <div class="tab-pane fade active show" id="empresas" role="tabpanel" aria-labelledby="empresas-tab">
                             <div class="planDescription">
                                 <p>Nuestro equipamiento está basado en Tecnología ULV, máquinas eléctricas que generan niebla fría formada por pequeñas gotas entre 5-50 micras.</p>
                             </div>
@@ -267,7 +293,7 @@
                                 <p>La Organización Mundial de Salud (OMS) recomienda el uso de tecnología eléctrica ULV  para nebulización en interiores, ya que al utilizar motores eléctricos, los productos químicos no están sometidos a combustión y rápidamente se puede diluir y abarcar área más  grande con la mínima cantidad de producto químico, generando con esto menor residualidad y mejor adaptación al entorno.. </p>
                             </div>
                         </div>
-                      </div>
+                      </div> -->
                 </div>
             </div>
             <div class="tecnology_img"></div>
@@ -290,10 +316,10 @@
                                             <p class="news_title"> Protocolo de limpieza y desinfección de <br> ambientes COVID 19 MINSAL</p>
                                             <p class="news_data"><span><a href="./img/PROTOCOLO.pdf">Descargar PDF</a></span></p>
                                         </div>
-                                        <div class="likes">
+                                        <!-- <div class="likes">
                                             <div class="like_icon"> 
                                                 <p>23 Marzo 2020</p>
-                                                <!-- <img src="./img/comentar.png" alt="calendario"> -->
+                                                <img src="./img/comentar.png" alt="calendario">
                                             </div>
                                             <div class="like_icon">
                                                 <p>3</p>
@@ -303,7 +329,7 @@
                                                 <p>0</p>
                                                 <img src="./img/comentar.png" alt="comentar">
                                             </div>
-                                        </div>
+                                        </div> -->
                                     </a>
                                 </div>
                             </div>
@@ -317,10 +343,10 @@
                                             <p class="news_title"> Así desinfectan para poder frenar <br> el Covid-19 en Boñar</p>
                                             <p class="news_data">Fuente <span>Diario de Valderrueda</span></p>
                                         </div>
-                                        <div class="likes">
+                                        <!-- <div class="likes">
                                             <div class="like_icon"> 
                                                 <p>23 Marzo 2020</p>
-                                                <!-- <img src="./img/comentar.png" alt="calendario"> -->
+                                                <img src="./img/comentar.png" alt="calendario">
                                             </div>
                                             <div class="like_icon">
                                                 <p>3</p>
@@ -330,7 +356,7 @@
                                                 <p>0</p>
                                                 <img src="./img/comentar.png" alt="comentar">
                                             </div>
-                                        </div>
+                                        </div> -->
                                     </a>
                                 </div>
                             </div>
@@ -345,10 +371,10 @@
                                             <p class="news_title"> Estación central comenzó a sanitizar las calles con un drone</p>
                                             <p class="news_data">Fuente <span>CNN Chile</span></p>
                                         </div>
-                                        <div class="likes">
+                                        <!-- <div class="likes">
                                             <div class="like_icon"> 
                                                 <p>23 Marzo 2020</p>
-                                                <!-- <img src="./img/comentar.png" alt="calendario"> -->
+                                                <img src="./img/comentar.png" alt="calendario">
                                             </div>
                                             <div class="like_icon">
                                                 <p>3</p>
@@ -358,7 +384,48 @@
                                                 <p>0</p>
                                                 <img src="./img/comentar.png" alt="comentar">
                                             </div>
-                                        </div>
+                                        </div> -->
+                                    </a>
+                                </div>
+                            </div>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section id="promociones" class="promSection">
+        <div class="fifthSection_container">
+            <div style=" margin-top: 4rem;" class=fifth_title>
+                <h1>Promociones Vigentes</h1>
+            </div>
+            <div class="fifth_carrusel">
+                <div class="slider-container">
+                    <ul id="promoSectionLawen">
+                        <li>
+                            <div class="news_card_ghost">
+                                <div style="border: 1px solid #fff; display: flex; flex-direction: column; align-items: center; justify-content: center;" class="news_card">
+                                    <a href="http://lawensalud.cl/coronavirus/ ">
+                                        <img style="height: 15rem;" src="./img/promo/flyer-promocion.jpg" alt="">
+                                    </a>
+                                </div>
+                            </div>
+                        </li>
+                        <li>
+                            <div class="news_card_ghost">
+                                <div style="border: 1px solid #fff; display: flex; flex-direction: column; align-items: center; justify-content: center;" class="news_card">
+                                    <a href="sanitizacion.html" >
+                                        <img style="height: 15rem;" src="./img/promo/flyer-villas.jpg" alt="">
+                                    </a>
+                                </div>
+                            </div>
+
+                        </li>
+                        <li>
+                            <div class="news_card_ghost">
+                                <div style="border: 1px solid #fff; display: flex; flex-direction: column; align-items: center; justify-content: center;" class="news_card">
+                                    <a href="qr_dscto.html" >
+                                        <img style="height: 15rem;" src="./img/promo/flyer-qr.jpg" alt="">
                                     </a>
                                 </div>
                             </div>
@@ -378,36 +445,44 @@
                     <div class="tel">
                         <h5>Llámanos al</h5>
                         <div class="contact_btn">
-                            <a href="tel:+56442381010">+56 4423810109</a>
+                            <a href="tel:+56442381010">+56 442381010</a>
                         </div>
                     </div>
                     <div class="tel">
                         <h5>Whatsapp</h5>
                         <div class="contact_btn">
-                            <a href="https://api.whatsapp.com/send?phone=569650032778&text=Hola%2C%20deseo%20adquirir%20un%20servicio%20con%20ustedes">+56 9650032778</a>
+                            <a target="_blank" href="https://api.whatsapp.com/send?phone=569650032778&text=Hola%2C%20deseo%20adquirir%20un%20servicio%20con%20ustedes">+56965032778</a>
                         </div>
                     </div>
                     <div class="email">
                         <h5>Escríbenos</h5>
                         <div class="contact_btn">
-                            <a href="mailto:contacto@lawensalud.cl">info@lawen.com</a>
+                            <a href="mailto:contacto@lawensalud.cl">contacto@lawensalud.cl</a>
                         </div>
                     </div>
                 </div>
                 <div class="sixth_form">
                     <h5>O ingresa tus datos</h5>
                     <p>y nos pondremos en contacto contigo</p>
-                    <div class="form_box">
-                        <input type="text" placeholder="Nombre completo" name="name">
+                    <form class="form_box" id="contact-form">
+                        <small class="error" id="error-name">*Ingresa tu nombre</small>
+                        <input id="form-name" type="text" placeholder="Nombre completo" name="name">
                         <div class="tel_box">
-                            <input type="text" placeholder="Número telefónico" name="name">
-                            <input type="text" placeholder="Mail" name="name">
+                            <small class="error" id="error-phone">*Ingresa un teléfono válido</small>
+                            <input id="form-phone" type="text" placeholder="Número telefónico" name="phone">
+
+                            <small class="error" id="error-mail">*Ingresa un correo válido</small>
+                            <input id="form-mail" type="text" placeholder="Mail" name="mail">
                         </div>
-                        <textarea name="cuentanos" placeholder="Cuéntanos tu problema" cols="30" rows="10"></textarea>
+
+                        <small class="error" id="error-message">*Escribe tu mensaje</small>
+                        <textarea id="form-message" name="message" placeholder="Cuéntanos tu problema" cols="30" rows="10"></textarea>
                         <div class="btn_box">
-                            <button class="btn_sixth">Enviar</button>
+                            <button id="send" class="btn_sixth">Enviar</button>
                         </div>
-                    </div>
+                        <small class="error" id="success-message">Datos enviados! Pronto te contactaremos</small>
+                        <small class="error" id="send-error">Error enviado datos. Intenta más tarde.</small>
+                    </form>
                    
                 </div>
 
@@ -420,21 +495,24 @@
                 <img src="./img/lawen-logo.png" alt="logo">
             </div>
             <div class="footer_2">
-                <a href="https://api.whatsapp.com/send?phone=569650032778&text=Hola%2C%20deseo%20adquirir%20un%20servicio%20con%20ustedes">
+                <a target="_blank" href="https://api.whatsapp.com/send?phone=56965032778&text=Hola%2C%20deseo%20adquirir%20un%20servicio%20con%20ustedes">
                     <img src="./img/wsp.png" alt="wsp">
                 </a>
-                <a href="">
+                <!-- <a href="">
                     <img src="./img/tw.png" alt="tw">
                 </a>
                 <a href="">
                     <img src="./img/ig.png" alt="ig">
-                </a>
+                </a> -->
             </div>
         </div>
     </footer>
 </body>
 
-<script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+<script
+  src="https://code.jquery.com/jquery-3.4.1.min.js"
+  integrity="sha256-CSXorXvZcTkaix6Yvo6HppcZGetbYMGWSFlBw8HfCJo="
+  crossorigin="anonymous"></script>
 <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
 <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
 <script src="https://cdnjs.cloudflare.com/ajax/libs/tiny-slider/2.9.2/min/tiny-slider.js"></script>
